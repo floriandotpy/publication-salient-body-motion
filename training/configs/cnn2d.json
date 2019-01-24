@@ -1,0 +1,27 @@
+{
+    "dataset_path": "/datasets/kinect-gestures-v1-240x320",
+    "out_shape": [
+        60,
+        80
+    ],
+    "in_shape": [
+        120,
+        160,
+        1
+    ],
+    "preprocessing_scale": [
+        144,
+        192
+    ],
+    "preprocessing_scale_teacher": [
+        60,
+        80
+    ],
+    "batch_size": 4,
+    "epochs": 50,
+    "checkpoint_path": "/checkpoints/cnn2d",
+    "model": "cnn2d",
+    "kernel_base": 16,
+    "num_features": 384,
+    "dropout_rate": 0.5
+}
